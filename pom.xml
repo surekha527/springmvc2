@@ -27,8 +27,8 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<maven.compiler.version>3.8.1</version>
-			<maven.compiler.scope>test</scope>
+			<version>3.8.1</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -39,8 +39,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
+					<maven.compiler.source>${java.version}</maven.compiler.source>
+					<maven.compiler.target>${java.version}</maven.compiler.target>
 				</configuration>
 			</plugin>
 		</plugins>
